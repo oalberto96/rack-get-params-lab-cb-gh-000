@@ -41,7 +41,7 @@ class Application
   end
 
   def handle_new_item_to_cart(item)
-    if @@cart.include?(item)
+    if @@items.include?(item)
       return "added #{item}"
     else
       return "We don't have that item"
