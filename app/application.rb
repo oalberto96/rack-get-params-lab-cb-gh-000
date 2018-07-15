@@ -45,4 +45,6 @@ class Application
       return "added #{item}"
     else
       return "We don't have that item"
+    end
+  end
 end
